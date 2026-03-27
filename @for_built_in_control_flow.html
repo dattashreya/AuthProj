@@ -1,0 +1,7 @@
+<ul>
+  @for(i of items; track i) {
+    <li>{{i | json}}</li>
+  } @empty {
+    <li>No result found</li>
+  }
+</ul>
